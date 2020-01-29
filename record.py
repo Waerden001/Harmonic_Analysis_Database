@@ -42,3 +42,9 @@ class Symmetric_Space():
     def from_input(cls):
         return cls({SYMMETRIC_SPACE_KEY_DICT[key]: input(SYMMETRIC_SPACE_KEY_DICT[key]+": ") for key in SYMMETRIC_SPACE_KEY_DICT})
 
+    def save_to_database():
+        pass
+
+    def find_empty():
+        pass
+
