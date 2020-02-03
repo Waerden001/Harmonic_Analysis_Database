@@ -1,6 +1,6 @@
 # Landscape of Representation Theory
 
-Here's an incomplete list of different flavours of "symmetries" that  we can consider their representations. Representations also have different flavours: over  complex, real, p-adic, finite (modular), and any number system that you can think of. We can also organize atomic representations
+Here's an incomplete list of different flavours of "symmetries" that  we can consider their representations. Representations also have different flavours: over  complex, real, p-adic, finite fields, or any number system that you can think of. We can also organize atomic representations
 into more complicated, structured and compound representations. 
 
 ## Finite groups
@@ -32,7 +32,7 @@ into more complicated, structured and compound representations.
 
 ## Lie groups
 
-    * Compact Lie groups [Reference](./Representations of compact Lie groups)
+    * Compact Lie groups [Reference](./Representations of compact Lie groups.pdf)
     * Real Lie groups
     * Complex Lie groups
         - Reductive complex groups
