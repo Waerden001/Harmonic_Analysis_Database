@@ -1,8 +1,7 @@
 
-
 # Landscape of Representation Theory
 
-Here's an incomplete list of different flavours of "symmetries" that  we can consider their representations. Representations also have different flavours: over  complex, real, p-adic, finite fields, or any number system that you can think of. We can also organize atomic representations
+Here's an incomplete list of different flavours of "symmetries" of which we can consider their representations. Representations also have different flavours: over  complex, real, p-adic, finite fields, or any number system that you can think of. We can also organize atomic representations
 into more complicated, structured and compound representations. 
 
 ## Finite groups
