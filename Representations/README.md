@@ -31,8 +31,8 @@ into more complicated, structured and compound representations.
         - Tamagawa numbers, Bruhat-Tits trees.
 
 ## Lie groups
+   * [Compact Lie groups](https://github.com/Waerden001/Harmonic_Analysis_Database/blob/master/Representations/Representations%20of%20classical%20compact%20Lie%20groups.pdf)
 
-    * Compact Lie groups [Reference](https://github.com/Waerden001/Harmonic_Analysis_Database/blob/master/Representations/Representations%20of%20classical%20compact%20Lie%20groups.pdf)
     * Real Lie groups
     * Complex Lie groups
         - Reductive complex groups
