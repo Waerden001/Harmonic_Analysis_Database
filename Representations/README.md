@@ -6,6 +6,7 @@ Here's an incomplete list of different flavours of "symmetries" that  we can con
 into more complicated, structured and compound representations. 
 
 ## Finite groups
+   * Finite abelian groups
    * [Symmetric groups][Symmetric groups]
    * Reflection groups and Coxeter groups, Dihedral groups
    * Weyl groups 
