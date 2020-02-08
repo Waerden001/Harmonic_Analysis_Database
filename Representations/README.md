@@ -9,11 +9,13 @@ into more complicated, structured and compound representations.
    * [Symmetric groups][Symmetric groups]
    * Reflection groups and Coxeter groups, Dihedral groups
    * Weyl groups 
-   * **Finite simple group of Lie type**
+   * **Finite (simple) group of Lie type**
         - PSL_2(7), non-isomorphic but isospectral graphs
         - Drinfeld curve, Deligne-Lusztig varieties 
 
 ## Profinite groups
+
+## Arithmetic groups
 
 ## Automorphic groups
 
