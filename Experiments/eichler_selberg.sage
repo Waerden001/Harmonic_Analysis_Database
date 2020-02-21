@@ -36,13 +36,46 @@ def mu_function(t,m, n, N, character):
                 
     return psi(N)/psi(N_m)*sum([1/character(c) for c in c_range])
 
-def weighted_class_number(t,n):
+def weighted_class_number_old(t,n):
     K.<a> = NumberField(x^2 -t*x + n)
     if K.discriminant() == -4:
         return K.class_number()/2
     if K.discriminant() == -3:
         return K.class_number()/3
     else return K.class_number()
+
+
+
+
+def symbol(E, p):
+    """
+    :param: p has to be a prime
+    """
+    d_E = E.disc()
+    if p in prime_divisors(d_E):
+        return 0
+    if p != 2:
+        return kronecker(p,d_E)
+    if p == 2:
+        if d_E % 8 == 1:
+            return 1
+        if d_E % 8 ==5:
+            return -1
+        if d_E % 2 == 0:
+            return 0
+        
+def weighted_class_number(E, d_order):
+    #Be careful, how does this int() behave for rational numbers
+    k = int(sqrt(d_order/E.disc()))
+    
+    if d_order == -4:
+        return 1/2
+    if d_order == -3:
+        return 1/3
+    else:
+        return h_E*k/(E.unit_group().order())*prod([1-symbol(E,p)*1/p for p in prime_divisors(k)])
+K = NumberField(x^2-2*x+5, 'a')
+K.unit_group().order()
 
 def hyper_unipotent(n, N, k, w):
     ans = 0
